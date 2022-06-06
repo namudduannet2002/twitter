@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{background-image: url(com.png);
+    background-color:rgb(61, 189, 240);
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    background-size: cover;
+    padding:0;
+}
+
+#twitter_container{
+    position: static;
+}
+
+.left_section{
+    position: fixed;
+    background-color: inherit;
+    top: 300px;
+    left: 270px;
+
+}
+
+.left_section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    line-height:60px;
+    letter-spacing: 2px;
+    
+
+} 
+
+.right_section{
+position: fixed;
+background-color: #fff;
+width: 650px;
+height:100%;
+right: 0;
+padding: 20px;
+}
+
+.right_section input {
+width: 200px;
+font-weight:bold;
+padding: 10px;
+height: 40px;
+border: 1px solid white;
+background-color: #eee;
+border-radius: 7px;
+}
+
+.right_section a{
+    position: absolute;
+    right: 300px;
+    top: 70px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right_section .top_btn_login{
+    padding: 10px;
+    background-color: white;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    margin-left: 5px;
+    width: 100px;
+
+
+}
+
+.middle-div{
+    position: absolute;
+    top: 200px;
+    left:100px;
+    width: 500px;
+}
+
+.middle-div img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.middle-div h2{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.middle-div h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.middle-div p{
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.second_btn_signup{
+    width: 300px;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    background-color: blue;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+.third_btn_login{
+    width: 300px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: blue;
+    background-color:white;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+
+ul{
+    list-style-type: none;
+position: fixed;
+bottom:0px;
+background-color: #eee;
+width: 100%;
+padding: 4px 100px; 
+}
+
+ul li{
+float: left;
+}
+
+ul li a{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #333;
+display: block;
+padding: 4px 7px;
+text-decoration: none;
+}
+
+ul li a:hover{
+color: blue;
+}
